@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!--Metadados-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personagens do universo de FNAF</title>
+</head>
+<body><!--Conteúdo visual do site-->
+    <header><!--Cabeçalho-->
+       <h1>Personagens de Five Nights at Freddy's</h1> 
+    </header>
+
+    <main><!--Conteúdo princiapl-->
+        <section><!--Seção, separando o main, facilitado a organização-->
+            <input type="text" placeholder="Digite o nome do jogo ou personagem" id="campo-pesquisa">
+            <button onclick="pesquisar()">Buscar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+
+    <footer><!--Rodapé-->
+        <p>2024 - Personagens do universo de FNAF. Todos os direitos reservados.</p>
+        <!--<p>Entre em contato com o e-mail: uybybvrba@gmail.com</p>-->
+    </footer>
+
+    <script src="dados.js"></script>     
+    <script src="app.js"></script> <!--A página vai ser renderizada primeiro e depois vai processar o JavaScript; a tela da a sensação de carregar mais rápido-->
+</body>
+</html>
